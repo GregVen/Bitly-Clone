@@ -1,0 +1,245 @@
+ /* normalisation nav */
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: "ProximaNova Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+
+ /* Font personnalisée */
+@font-face {
+    font-family: 'proxima_nova_extra_condensXBd';
+    src: url('./font/fontsfree-net-proxima-nova-excn-xbold-webfont.woff2') format('woff2'),
+         url('./font/fontsfree-net-proxima-nova-excn-xbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('./font/fontsfree-net-proximanova-regular-webfont.woff2') format('woff2'),
+         url('./font/fontsfree-net-proximanova-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novathin';
+    src: url('./font/fontsfree-net-proxima-nova-thin-webfont.woff2') format('woff2'),
+         url('./font/fontsfree-net-proxima-nova-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    height: 5rem;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #36383b;
+    margin: 0px 6px;
+    font-family: "ProximaNova Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#section1 div{
+    height: auto;
+    padding-left: 150px;
+}
+
+h1{
+    /* font-size: 2.7rem; */
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 56px;
+    margin-bottom: 5px;
+    font-family: "ProximaNova ExtraBold","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#section1 div p{
+    margin-bottom: 30px;
+    color: #56575b;
+    font-family: "ProximaNova Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#section1 div a{
+    background-color: #2a5bd7;
+    text-decoration: none;
+    color: white;
+    /* padding: 10px 30px; */
+    border-radius: 6px;
+    font-size: 20px;
+        line-height: 1.11;
+padding: 18px 30px;
+}
+
+#section2 {
+    background-color: #0b1736;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "ProximaNova Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#inputtext{
+    height: 4rem;
+    width: 60rem;
+    border-radius: 5px;
+    border: none;
+} 
+
+
+#inputsubmit{
+    height: 4rem;
+    width: 10rem;
+    margin-left: 1.5rem;
+    border-radius: 5px;
+    color: white;
+   
+    border:none;
+    background-color:  #1b3987;
+}
+
+#section2 p{
+    color:whitesmoke;
+    font-size: 0.7rem;
+    padding-top: 0.8rem;
+    opacity: 0.8;
+}
+
+#section2 p a{
+    color: white;
+    font-weight: bold;
+    font-family: "ProximaNova Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.erreur{
+
+    color: white;
+
+    border: 1px solid white;
+
+    padding: 1rem;
+
+    border-radius: 15px;
+
+    display: inline-block;
+
+    margin: 1rem auto;
+
+}
+
+
+
+.erreur h3{
+
+    font-size: 2rem;
+
+}
+
+#section3{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+#section3 div {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#section3 div img{
+    height:80px;
+    width: auto;
+    margin: 0px 20px;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+footer{
+    height: 7rem;
+    background-color:silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer img{
+    height: 45px;
+    width: auto;
+}
+
+footer p {
+    font-size: 0.7rem;
+    opacity: 0.5;
+}
+
+#formulaire{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: #1b3987;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#table{
+    border-spacing: 0.7rem;
+}
+
+.bouton{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.bouton button{
+    padding:0.3rem 3rem;
+    border-radius: 5px;
+}
+
+.bouton button:hover{
+    color: white;
+    background-color: cornflowerblue;
+}
